@@ -1,0 +1,37 @@
+how to check for a character ASCII Code practice "static_cast" class template
+isalpha() isalnum() isdigit() #include <cctype>
+abstraction in cpp important
+to perform operation over the system use file <cstdlib>
+
+
+please be patient first!
+
+
+learn more about vfun, pureVFunc, vtable, vpointer, string classin cpp, abstraction and oops and stls and recursion
+
+
+bitwise left shift practice and bitwise right shift practice
+
+vf: the most derived version of the function must be executed
+
+
+pvf = hey base class you cannot have the implementation but the class inherits you must have  
+  virtual void function() = 0;   else the object of the derived class will not be created!  == abstract class
+
+as the class internal details would be hidden and only a pointer of that would be used, 
+
+
+virtual == overriding
+
+virtual distructor,  {The reason is that destructors (unlike other functions) are not actually ‘overridden’,
+rather they are always called in the reverse order of the class derivation}
+
+
+If the definition of the pure virtual destructor is not provided, then what function body will be called during object destruction?
+{and how we get to know we have successfully called the distructors of derived class}
+
+A virtual destructor is essential for proper cleanup of derived class objects when they are deleted through a base class pointer.
+It ensures that the destructor of the derived class is called, followed by the destructor of the base class, avoiding resource leaks.
+
+
+The term "polymorphic" in C++ refers to the ability of a single function, operator, or object to behave differently based on the context—specifically
